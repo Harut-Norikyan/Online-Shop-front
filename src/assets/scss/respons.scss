@@ -1,0 +1,82 @@
+@media only screen and (min-width:767px) and (max-width: 991px) {
+  .res_menu_check:checked ~ .nav_bar {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 85px;
+    background: white;
+    z-index: 10;
+    width: 20%;
+    border: 3px solid #ebebeb;
+
+  }
+
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanTop {
+    transform: rotate(-675deg);
+    margin-bottom: -8px;
+  }
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanMiddle {
+    transform: rotate(675deg)
+  }
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanBottom {
+    display:none  }
+  .links{
+    padding: 4px;
+    border-bottom: 1px solid #ebebeb
+  }
+  .circle-picker{
+    width:85% !important;
+  }
+  .contentSelect{
+    display: inline;
+    .selects{
+      margin-bottom:10px;
+    }
+  }
+}
+@media only screen  and (max-width:767px ){
+  .res_menu_check:checked ~ .nav_bar{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    z-index: 10;
+    width: 20%;
+    border: 3px solid #ebebeb;
+  }
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanTop {
+    transform: rotate(-675deg);
+    margin-bottom: -8px;
+  }
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanMiddle {
+    transform: rotate(675deg)
+  }
+  .res_menu_check:checked ~ .classy-navbar-toggler .res_menu .navbarToggler .navbarSpanBottom {
+    display:none  }
+  .links{
+    padding: 4px;
+    border-bottom: 1px solid #ebebeb
+  }
+
+  .imgBlock{
+    height: 41px !important;
+  }
+  .imgBlock img {
+    display: none;
+  }
+  .circle-picker{
+    width: 85% !important;
+  }
+  .single_product_details_area{
+    .single_product_desc{
+      position:relative !important
+    }
+  }}
+@media only screen and (max-width: 576px) {
+  .contentSelect{
+    display: inline;
+    .selects{
+      margin-bottom:10px;
+    }}
+}
